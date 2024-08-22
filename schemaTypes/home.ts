@@ -17,14 +17,22 @@ export const home = defineType({
       title: 'Title',
         type: 'string',
       },
-   
+      {
+        name: 'images',
+        title: 'Images',
+        type: 'array',
+        of: [{ type: 'image' }],
+        options: {
+          layout: 'grid', 
+        },
+      },
 
 
     defineField({
       name: 'cars',
       title: 'cars',
       type: 'array',
-      of: [{ type: 'cars' }], // use the product type here
+      of: [{ type: 'cars' }], 
     }),
   ],
 });

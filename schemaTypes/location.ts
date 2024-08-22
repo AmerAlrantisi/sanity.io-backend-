@@ -52,5 +52,16 @@ export const location = defineType({
       of: [{ type: 'carShowroom' }],
     }),
 
+
+    defineField({
+      name: 'services',
+      title: 'services',
+      type: 'array',
+      of: [{ type: 'services' }],
+    }),
+
+
+
+
   ],
 });
