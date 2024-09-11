@@ -6,14 +6,29 @@ export const services = defineType({
   type: 'object',
   fields: [
 
+ 
+
 
     defineField({
-      name: 'components',
-      title: 'components',
+      name: 'winches',
+      title: 'winches',
       type: 'array',
-      of: [{ type: 'components' }],
+      of: [{ type: 'winches' }],
+    }),
+   
+
+    defineField({
+      name: 'chargeonroad',
+      title: 'charge on road',
+      type: 'array',
+      of: [{ type: 'chargeonroad' }],
     }),
 
-
+    defineField({
+      name: 'dryclean',
+      title: 'dry clean',
+      type: 'array',
+      of: [{ type: 'dryclean' }],
+    }),
   ],
 });

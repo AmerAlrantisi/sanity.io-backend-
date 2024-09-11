@@ -10,15 +10,17 @@ export const storeInfo = defineType({
       title: 'Store Full Name',
       type: 'string',
     },
-    {
-      name: 'price',
-      title: 'price',
-      type: 'string',
-    },
+  
 
     {
       name: 'phoneNumber',
       title: 'phone Number',
+      type: 'string',
+    },
+
+    {
+      name: 'phoneNumber2',
+      title: 'phone Number 2',
       type: 'string',
     },
 
@@ -34,6 +36,16 @@ export const storeInfo = defineType({
       title: 'time',
       type: 'string',
     },
+
+
+
+    {
+      name: 'locationFullName',
+      title: 'location Name',
+      type: 'string',
+    },
+
+    
 
 
    

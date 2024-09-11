@@ -12,8 +12,8 @@ import { storeInfo } from './storeInfo'
 import { services } from './services'
 import { chargeonroad } from './chargeonroad'
 import { winches } from './winches'
-import { componentss } from './componentss'
 import { dryclean } from './dryclean'
+import { details } from './details'
 
 
 
@@ -22,5 +22,5 @@ import { dryclean } from './dryclean'
 
 
 export const schemaTypes = [
-home ,cars , location , sparePartsStore , maintenanceCenter , chargingStation  , chargerStore , carShowroom , accessoriesStore , storeInfo , dryclean , componentss , winches , chargeonroad , services
+home ,cars , location , sparePartsStore , maintenanceCenter , chargingStation  , chargerStore , carShowroom , accessoriesStore , storeInfo , dryclean  , winches , chargeonroad , services , details
 ]

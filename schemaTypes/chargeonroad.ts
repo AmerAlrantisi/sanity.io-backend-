@@ -6,25 +6,42 @@ export const chargeonroad = defineType({
   type: 'object',
   fields: [
     {
-      name: 'StoreFullName',
-      title: 'Store Full Name',
-      type: 'string',
-    },
+        name: 'SName',
+        title: 'service name',
+        type: 'string',
+      },
+      {
+        name: 'ServiceStoreFullName',
+        title: 'Store Full Name',
+        type: 'string',
+      },
   
+  
+      {
+        name: 'ServicePhoneNumber',
+        title: 'phone Number',
+        type: 'string',
+      },
+  
+  
+      {
+        name: 'ServiceLocation',
+        title: 'location',
+        type: 'string',
+      },
+      {
+        name: 'servicelocation',
+        title: 'service city location',
+        type: 'string',
+      },
 
-    {
-      name: 'phoneNumber',
-      title: 'phone Number',
-      type: 'string',
-    },
+   
 
-
-    {
-      name: 'location',
-      title: 'location',
-      type: 'string',
-    },
-
+      {
+        name: 'time',
+        title: 'time',
+        type: 'string',
+      },
    
 
 
