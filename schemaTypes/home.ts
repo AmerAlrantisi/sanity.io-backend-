@@ -28,6 +28,23 @@ export const home = defineType({
       },
 
 
+      {
+        name: 'phoneNumber',
+        title: 'phoneNumber',
+          type: 'string',
+        },
+
+
+        {
+          name: 'mainImage',
+          title: 'Main Image',
+          type: 'image',
+          options: {
+            hotspot: true, 
+          },
+        },
+
+
     defineField({
       name: 'cars',
       title: 'cars',
